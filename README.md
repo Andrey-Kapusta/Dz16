@@ -34,12 +34,12 @@
 
 ## 🔧 Реализованные функции
 
-1.double* full_elements(double* ptr_array, int size);
-2.double* calc_elements(double* ptr_array, int size);
-3.int put_elements(double* ptr_array, int size);
-4.int delete_k(double* ptr_arr, int size, int k);
-5.double* insert(double* ptr_arr, int* size, int index, double num);
-6.int max_elem(double* ptr_array, int size);
-7.int find_first_element(int*, int, int);
-8.double* full_elements4(double* ptr_array4, double* ptr_array1, int size4);
-9.double* create_array_after_last_negative(int* ptr_array2, int size, int* ptr_array4, int size4);
+1. double* full_elements(double* ptr_array, int size);
+2. double* calc_elements(double* ptr_array, int size);
+3. int put_elements(double* ptr_array, int size);
+4. int delete_k(double* ptr_arr, int size, int k);
+5. double* insert(double* ptr_arr, int* size, int index, double num);
+6. int max_elem(double* ptr_array, int size);
+7. int find_first_element(int*, int, int);
+8. double* full_elements4(double* ptr_array4, double* ptr_array1, int size4);
+9. double* create_array_after_last_negative(int* ptr_array2, int size, int* ptr_array4, int size4);
