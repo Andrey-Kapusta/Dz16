@@ -352,9 +352,9 @@ double* create_array_after_last_negative(double* ptr_array2, int size, double* p
         }
     }
 
-    
-    ptr_array4 = insert(ptr_array4, &size4, 1, ptr_array2[size-1]);
-    
+    for (int i=last_negative_index+1;i<size;i++){
+        ptr_array4 = insert(ptr_array4, &size4, 1, ptr_array2[i]);
+    }
 
     return ptr_array4;
 
@@ -502,6 +502,7 @@ double* insert(double* ptr_arr, int* size, int index, double num) {      //Вс�
     *size = size_n;
     return ptr_arr_n;
 }
+
 
 
 
